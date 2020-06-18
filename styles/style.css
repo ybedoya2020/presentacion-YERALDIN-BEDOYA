@@ -1,0 +1,196 @@
+body{
+    font-family: 'Source Sans Pro', sans-serif;
+    margin: 0;
+}
+
+.header{
+    background-color:#1b2127 ;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    height: 70px;
+    height: inherit;
+}
+
+.menu{
+    height: inherit;
+    display: flex;
+    align-items: center;
+
+}
+.header ol {
+display: flex;
+height: inherit;
+align-items: center;
+list-style: none;
+}
+
+.header a{
+    color: white;
+    text-decoration: none;
+    padding: 0 10px;
+    height: inherit;
+    display: flex;
+    align-items: center;
+
+}
+.container{
+    width: 1000px;
+    margin: 0 auto;
+    display: inherit;
+    justify-content: inherit;
+    align-items: inherit;
+    height: inherit;
+    flex-wrap: inherit;
+}
+figure{
+    margin: 0;
+}
+.logo{
+    margin-top: 5px;
+}
+.principal{
+    height: 300px;
+    background-color:#1b2127 ;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.imagenprincipal{
+    object-fit: cover;
+}
+h1{
+    color: white;
+    font-size: 30px;
+    line-height: 1.5;
+    text-transform: capitalize;
+    margin: 0;
+
+}
+h1,h2,h3,h4,h5,h6{
+    font-family: 'Fjalla One', sans-serif;
+     font-weight: normal;
+}
+strong{
+    color: #026fff;
+}
+h2{
+    color: #026fff;
+    text-transform: uppercase;
+    font-size: 24px;
+    margin-bottom: 40px;
+}
+
+.acercademi{
+    background-color: #f4f4f4;
+    padding: 20px;
+
+}
+
+.sobremi{
+    border: 1px solid gray;
+    border-radius: 10px;
+    margin-bottom: 15px;
+    padding: 20px;
+    background: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.titulo-sobremi{
+    font-size: 30px;
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+
+.subtitulo-sobremi,
+.info-sobremi{
+    margin: 10px 0;
+}
+.descripcion-sobremi{
+    font-size: 20px;
+}
+.sobremi-detalles{
+    width: 500px;
+}
+.imagen-sobremi-contenedor{
+    width: 300px
+}
+
+.lista-massobremi{
+    display: flex;
+    flex-wrap: wrap;
+}
+.massobremi{
+    width: 480px;
+    margin: 10px;
+    border-radius: 10px;
+    overflow: hidden;
+    flex-shrink: 0;
+    background-color: #f4f4f4;
+}
+.detalle-massobremi{
+background-color: white;
+margin: 20px 40px;
+margin-top: -40px;
+padding: 20px;
+position: relative;
+text-align: center;
+
+ }
+ .imagen-massobremi{
+     width: 480px;
+     height: 200px;
+     object-fit: cover;
+ }
+ .contacto{
+     background-color: #026fff;
+     color: white;
+     height: 150px;
+     display: flex;
+     align-items: center;
+     justify-content: space-between;
+ }
+ .link-social{
+     display: inline-block;
+     width: 40px;
+     height: 40px;
+     background-color: darkmagenta;
+    
+ }
+ .link-social.github{
+     background-image: url("https://img.icons8.com/nolan/64/github.png");
+     background-size: 40px 40px;
+     
+ }
+ .link-social.Facebook{
+    background-image: url("https://img.icons8.com/nolan/64/facebook.png");
+    background-size: 40px 40px;
+  }
+  .link-social.Instagram{
+    background-image: url("https://img.icons8.com/nolan/64/instagram-new.png");
+    background-size: 40px 40px;
+  }
+  .formulario-email input{
+      border-color: gray;
+      padding: 10px;
+      width: 150px;
+      border-radius: 5px;
+      border-style: solid;
+  }
+  .formulario-email button{
+      display: block;
+      background-color: transparent;
+      color: white;
+      border-radius: 5px;
+      width: 100px;
+      padding: 10px 0;
+      margin: 10px;
+  }
+  .footer{
+      background-color: #1b2127;
+      color: white;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+  }
